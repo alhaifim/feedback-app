@@ -1,0 +1,38 @@
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "javascriptreact": "javascript",
+        "typescript": "typescriptreact",
+        "typescriptreact": "typescript",
+        "html": "html",
+        "css": "css",
+
+    },
+    "emmet.syntaxProfiles": {
+        "html": {
+            "attr_quotes": "single"
+        },
+        "jsx": {
+            "self_closing_tag": true
+        }
+    },
+    "emmet.preferences": {
+        "triggerExpansionOnTab": true,
+        "triggerExpansionOnSpace": false,
+        "showSuggestionsWhenTyping": true,
+        "showSuggestionsWhenTriggering": true,
+        "showExpandedAbbreviation": "always",
+        "showAbbreviationSuggestions": true,
+        "showTagSuggestions": true,
+        "showFileSuggestions": true,
+        "showColorSuggestions": true,
+        "showInsertionSuggestions": true,
+        "showLiveSuggestions": true,
+        "snippets": {
+            "files": [
+                "~/.emmet-snippets"
+            ]
+        }
+    },
+    "reactSnippets.settings.prettierEnabled": true,
+}
